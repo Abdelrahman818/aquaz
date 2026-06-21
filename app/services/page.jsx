@@ -13,32 +13,32 @@ const services = [
   {
     title: "HDPE Geomembranes",
     description: "High-density polyethylene liners engineered for exceptional chemical resistance, low permeability, and long-term durability in large containment systems.",
-    icon: <Layers />,
+    icon: Layers,
   },
   {
     title: "PVC Geomembranes",
     description: "Flexible polyvinyl chloride lining systems designed for complex geometries, strict regulatory compliance, and reliable waterproofing performance.",
-    icon: <Shield />,
+    icon: Shield,
   },
   {
     title: "TPO Membranes",
     description: "Thermoplastic polyolefin barriers that combine strong seam welding with excellent weathering resistance for long-term protection.",
-    icon: <Settings />,
+    icon: Settings,
   },
   {
     title: "EPDM Systems",
     description: "Ethylene propylene diene monomer rubber membranes delivering superior UV stability, flexibility, and leak-proof containment for difficult applications.",
-    icon: <Droplets />,
+    icon: Droplets,
   },
   {
     title: "Mining Containment",
     description: "Large-scale geomembrane installation for heap leach pads, tailings storage facilities, process ponds, and stormwater control.",
-    icon: <HardHat />,
+    icon: HardHat,
   },
   {
     title: "Wastewater Solutions",
     description: "Engineered lining systems for municipal and industrial effluent lagoons, sludge ponds, and environmental protection cells.",
-    icon: <Factory />,
+    icon: Factory,
   },
 ];
 
