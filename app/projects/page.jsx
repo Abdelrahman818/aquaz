@@ -129,9 +129,9 @@ export default function ProjectsPage() {
       <section className="py-25 bg-white">
         <div className="max-w-360 mx-auto px-6 md:px-12 grid gap-10 lg:grid-cols-3">
           {[
-            { icon: <Droplets />, title: "Water Containment", desc: "Specialized lining systems for reservoirs, lakes, canals, and industrial water bodies." },
-            { icon: <Layers />, title: "Geomembrane Installation", desc: "HDPE, PVC, TPO, and EPDM solutions tailored to each site environment and regulatory requirement." },
-            { icon: <Globe />, title: "Regional Delivery", desc: "Project execution supported by local teams and logistics for Africa and the Middle East." },
+            { icon: Droplets, title: "Water Containment", desc: "Specialized lining systems for reservoirs, lakes, canals, and industrial water bodies." },
+            { icon: Layers, title: "Geomembrane Installation", desc: "HDPE, PVC, TPO, and EPDM solutions tailored to each site environment and regulatory requirement." },
+            { icon: Globe, title: "Regional Delivery", desc: "Project execution supported by local teams and logistics for Africa and the Middle East." },
           ].map((item, idx) => {
             const Icon = item.icon;
             return (
