@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AQUA Z",
+  "url": "https://aquaz-eng.com",
+  "logo": "https://aquaz-eng.com/logo.png",
+  "description": "Leading provider of geomembrane and environmental containment solutions across Africa and the Middle East since 2009",
+  "image": "https://aquaz-eng.com/assets/og-image.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/company/aqua-z",
+    "https://www.facebook.com/aquazeng",
+    "https://twitter.com/aquazeng"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Engineering Blvd",
+    "addressLocality": "Nasr City",
+    "addressRegion": "Cairo",
+    "postalCode": "11371",
+    "addressCountry": "EG"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Technical Support",
+    "telephone": "+20-2-01096019174",
+    "email": "contact@aquaz-eng.com",
+    "areaServed": ["EG", "ZA", "GH", "SA", "AE", "OM"]
+  },
+  "foundingDate": "2009",
+  "employees": 250,
+  "areaServed": {
+    "@type": "GeoShape",
+    "box": "-34.4,-2 50 26 35"
+  }
+}
