@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "AQUA Z | Geomembrane & Containment Engineering Solutions | Africa & Middle East",
   description: "AQUA Z provides world-class geomembrane installation, containment solutions, and environmental engineering across Egypt, Africa, and the Middle East. ISO certified since 2009.",
-  keywords: "geomembrane, containment solutions, engineering, Africa, Middle East, Egypt, environmental protection",
+  keywords: "geomembrane, containment solutions, engineering, Africa, Middle East, Egypt, environmental protection, isolation, isolate, iso, agri, agricuture, large scale, HDPE, PVC, EPDM, Mining, waste, water, waste water, water wast, Aquaculture, Infrastructure, Waste Management, Recreation, Fish, Fish farms, Lagoons, ",
   metadataBase: new URL("https://aquaz-eng.com"),
   openGraph: {
     title: "AQUA Z | Engineering Excellence in Containment Solutions",
@@ -51,8 +51,9 @@ export const metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-icon.png",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
   alternates: {
     canonical: "https://aquaz-eng.com",
@@ -93,6 +94,7 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
+        <link rel="icon" href="/favicon.ico" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}

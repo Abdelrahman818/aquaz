@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 import { Hero } from "@/components/Home/Hero";
 import { Navbar } from "@/components/Nav";
 import { StatStrip } from "@/components/Home/StatStrip";
@@ -20,6 +21,7 @@ export const metadata = {
 export default function Homepage() {
   return (
     <div className="min-h-screen bg-white font-['Inter'] overflow-x-hidden">
+      <Analytics />
       <Navbar />
       <Hero />
       <StatStrip />
