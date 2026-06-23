@@ -2,7 +2,6 @@ import { Mail, MessageCircle } from "lucide-react";
 import { Btn } from "../Btn";
 
 export const CTA = () => {
-  const router = useRouter();
   return (
     <section className="py-[120px] bg-[#0F172A] relative overflow-hidden">
       <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "url('/assets/tech-pattern-bg.png')" }}></div>
