@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { Btn } from "../Btn";
 
 export const Hero = () => {
   const router = useRouter()
@@ -27,12 +28,8 @@ export const Hero = () => {
           Engineered for durability. Trusted across Africa and the Middle East.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up opacity-0 delay-200">
-          <button onClick={() => router.push('/contact')} className="bg-[#F97316] text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-[#ea580c] transition-colors w-full sm:w-auto">
-            Request a Quote
-          </button>
-          <button onClick={() => router.push('/projects')} className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-white/10 transition-colors w-full sm:w-auto">
-            View Projects
-          </button>
+          <Btn route={'/contact'} innerText={'Request a Quote'} classes={"bg-[#F97316] text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-[#ea580c] transition-colors w-full sm:w-auto"} />
+          <Btn route={'/projects'} innerText={'View Projects'} classes={"bg-transparent border-2 border-white text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-white/10 transition-colors w-full sm:w-auto"} />
         </div>
       </div>
     </section>
