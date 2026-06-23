@@ -1,6 +1,8 @@
-import Image from "next/image"
+import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export const Hero = () => {
+  const router = useRouter()
   return (
     <section 
       className="relative min-h-[90vh] flex items-center justify-center pt-20"
@@ -25,10 +27,10 @@ export const Hero = () => {
           Engineered for durability. Trusted across Africa and the Middle East.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up opacity-0 delay-200">
-          <button className="bg-[#F97316] text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-[#ea580c] transition-colors w-full sm:w-auto">
+          <button onClick={() => router.push('/contact')} className="bg-[#F97316] text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-[#ea580c] transition-colors w-full sm:w-auto">
             Request a Quote
           </button>
-          <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-white/10 transition-colors w-full sm:w-auto">
+          <button onClick={() => router.push('/projects')} className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-white/10 transition-colors w-full sm:w-auto">
             View Projects
           </button>
         </div>
