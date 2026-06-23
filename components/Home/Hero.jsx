@@ -1,9 +1,7 @@
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 import { Btn } from "../Btn";
 
 export const Hero = () => {
-  const router = useRouter()
   return (
     <section 
       className="relative min-h-[90vh] flex items-center justify-center pt-20"
