@@ -265,9 +265,9 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-white/60 text-sm font-medium mb-1">Regions</p>
-                    <span className="font-semibold text-lg hover:text-[#00A6A6] transition-colors">Egypt</span>
-                    <span className="font-semibold text-lg hover:text-[#00A6A6] transition-colors">Sengal</span>
-                    <span className="font-semibold text-lg hover:text-[#00A6A6] transition-colors">Cote d’ivoire</span>
+                    <div className="font-semibold text-lg hover:text-[#00A6A6] transition-colors">Egypt</div>
+                    <div className="font-semibold text-lg hover:text-[#00A6A6] transition-colors">Sengal</div>
+                    <div className="font-semibold text-lg hover:text-[#00A6A6] transition-colors">Cote d’ivoire</div>
                   </div>
                 </div>
               </div>
