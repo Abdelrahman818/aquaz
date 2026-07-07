@@ -276,15 +276,6 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Bottom CTA */}
-      <section className="py-12 bg-[#F97316] text-white text-center px-6">
-        <h2 className="font-['Montserrat'] font-bold text-2xl md:text-3xl mb-4">Need an Urgent Quote for a Tender?</h2>
-        <p className="text-white/90 font-medium mb-6">We provide expedited pricing for active bids.</p>
-        <button className="bg-white text-[#F97316] px-8 py-3 rounded-md font-bold hover:bg-gray-100 transition-colors">
-          Email Tender Documents
-        </button>
-      </section>
-
       <Footer />
     </div>
   );
