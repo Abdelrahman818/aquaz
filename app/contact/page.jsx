@@ -264,9 +264,10 @@ export default function Contact() {
                     <MapPin className="w-5 h-5 text-[#00A6A6]" />
                   </div>
                   <div>
-                    <p className="text-white/60 text-sm font-medium mb-1">Egypt</p>
-                    <p className="text-white/60 text-sm font-medium mb-1">Sengal</p>
-                    <p className="text-white/60 text-sm font-medium mb-1">Cote d’ivoire</p>
+                    <p className="text-white/60 text-sm font-medium mb-1">Regions</p>
+                    <span className="font-semibold text-lg hover:text-[#00A6A6] transition-colors">Egypt</span>
+                    <span className="font-semibold text-lg hover:text-[#00A6A6] transition-colors">Sengal</span>
+                    <span className="font-semibold text-lg hover:text-[#00A6A6] transition-colors">Cote d’ivoire</span>
                   </div>
                 </div>
               </div>
