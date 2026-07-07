@@ -78,7 +78,7 @@ export function Footer() {
         </p>
         <p className="text-[#64748B] text-sm">
           <a href="https://www.facebook.com/profile.php?id=61565299295319" target="_blank">
-            Made By &copy;Technology Craft
+            Made By <span className="text-emerald-600">Technology Craft</span>&copy;
           </a>
         </p>
         <p className="text-[#64748B] text-sm font-medium">

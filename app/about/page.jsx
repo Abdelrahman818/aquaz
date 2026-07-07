@@ -4,7 +4,7 @@ import { Footer } from "@/components/Footer";
 import { Shield, Award, Globe, Leaf, HardHat, CheckCircle, MapPin, Droplets, Layers } from "lucide-react";
 
 export const metadata = {
-  title: "About AQUA Z | Engineering Excellence Since 2009",
+  title: "About AQUA Z | Engineering excellence since 2009",
   description: "Meet the team behind world-class geomembrane solutions. AQUA Z combines ISO-certified expertise with decades of engineering experience across Africa and the Middle East.",
 };
 
