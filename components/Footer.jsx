@@ -77,7 +77,7 @@ export function Footer() {
           &copy; {new Date().getFullYear()} AQUA Z. All rights reserved.
         </p>
         <p className="text-[#64748B] text-sm">
-          <a href="https://www.facebook.com/profile.php?id=61565299295319" target="_blank">
+          <a href="https://www.technology-craft.com/" target="_blank">
             Made By <span className="text-emerald-600">Technology Craft</span>&copy;
           </a>
         </p>
